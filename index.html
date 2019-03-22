@@ -6,41 +6,57 @@
 </head>
 <body class="body">
 
-
     <header class="header">
         <div class="header__top">
             <h1 class="header__headline headline">РВД-Сервис</h1>  
-            <div class="header__auth contacts">
-
+            <div class="header__auth auth">
+                <a href="#">Регистрация</a>
+                <a href="#">Вход</a>
             </div>
-            <div class="header__search contacts">
+            <form class="header__search search">
+                    <button class="search__button" type="submit">Go</button>
+                    <input class="search__text" type="text" name="search" placeholder="Поиск">
+            </form>
 
-            </div>
             <div class="header__contacts contacts">
                 <a href="tel:+74872584059">+7 (4872) 58-40-59</a>
                 <a href="mailto:info@rvd-servis.ru">info@rvd-servis.ru</a>
 
             </div>
-            <div class="header__bell contacts">
+            <div class="header__bell">
                     <a href="tel:+74872584059">Перезвоните мне</a> 
                 </div>
 
-            <div class="header__basket contacts">
-
+            <div class="header__basket">
+                 <a href="#">Корзина</a> 
             </div>
         </div>
         <div class="header__bottom">
             <nav class="header__navigation navigation">
                 <ul class="navigation__list">
-                    <li class="navigation__item">
-                        <a href="#" class="navigation__link">Каталог товаров</a>
+                    <li class="navigation__item select">
+                        <select class="select__list" size="1">
+                            <option class="select__item"selected disabled>Каталог товаров</option>
+                            <option class="select__item">Адаптеры 201,202 (BSP 60°)</option>
+                            <option class="select__item">Героторные гидромоторы BMR </option>
+                            <option class="select__item">Адаптеры 201,202 (BSP 60°)</option>
+                            <option class="select__item">Адаптеры 201,202 (BSP 60°)</option>
+                        </select>
                     </li>
                     <li class="navigation__item">
                         <a href="#" class="navigation__link">О компании</a>
                     </li>
-                    <li class="navigation__item">
-                        <a href="#" class="navigation__link">РВД-Сервис<br>(Услуги)</a>
-                    </li>
+                    <li class="navigation__item select">
+                            <select class="select__list" size="1">
+                                <option class="select__item"selected disabled>РВД-Сервис<br>(УСЛУГИ)</option>
+                                <option class="select__item">РВД для легковых автомобилей </option>
+                                <option class="select__item">РВД для грузовых автомобилей</option>
+                                <option class="select__item">РВД для моек высокого давления</option>
+                                <option class="select__item">РВД для коммунальной техники</option>
+                                <option class="select__item">РВД для станков и оборудования</option>
+                                <option class="select__item">РВД для каналопромывочных машин</option>    
+                            </select>
+                        </li>
                     <li class="navigation__item">
                         <a href="#" class="navigation__link">Информация</a>
                     </li>
@@ -53,12 +69,10 @@
     </header>
 
     <main class="main">
-
         <section class="index-banner">
             <a href="#" class="index-banner__link"></a>
             <span class="index-banner__text">Производство и ремонт РВД для грузовых автомобилей</span>
         </section>
-
         <section class="services">
             <header class="services__title custom-title">
                 <h2>Наши Услуги</h2>
@@ -102,16 +116,15 @@
             </a>
             </div> 
                 <p class="services__information"><span>Компания "РВД-Сервис" длительное время успешно занимается производством, а также ремонтом рукавов высокого давления (РВД) и труб выского давления (ТВД).</span></p>
-        </section>
-        
+        </section>    
         <section class="popular-goods">
             <header class="popular-goods__title custom-title">
                 <h2>Популярные товары</h2>
             </header>
             <div class="popular-goods__item">
-                <header class="popular-goods__title goods-title">
-                    <h4>Адаптеры 201,202 (BSP 60°) </h3>
-                </header>
+                <span class="popular-goods__title goods-title">
+                    <h3>Адаптеры 201,202 (BSP 60°) </h3>
+                </span>
                 <span class="popular-goods__image">
                     <img src="" alt="">
                 </span>
@@ -127,9 +140,9 @@
                 </a>
             </div>
             <div class="popular-goods__item">
-                <header class="popular-goods__title goods-title">
-                    <h4>Героторные гидромоторы BMR </h3>
-                </header>
+                <span class="popular-goods__title goods-title">
+                    <h3>Героторные гидромоторы BMR </h3>
+                </span>
                 <span class="popular-goods__image">
                     <img src="" alt="">
                 </span>
@@ -144,9 +157,9 @@
                 </a>
             </div>
             <div class="popular-goods__item">
-                <header class="popular-goods__title goods-title">
-                    <h4>Адаптеры 201,202 (BSP 60°) </h3>
-                </header>
+                <span class="popular-goods__title goods-title">
+                    <h3>Адаптеры 201,202 (BSP 60°) </h3>
+                </span>
                 <span class="popular-goods__image">
                     <img src="" alt="">
                 </span>
@@ -160,9 +173,9 @@
                 </a>
             </div>
             <div class="popular-goods__item">
-                <header class="popular-goods__title goods-title">
-                    <h4>Адаптеры 201,202 (BSP 60°) </h3>
-                </header>
+                <span class="popular-goods__title goods-title">
+                    <h3>Адаптеры 201,202 (BSP 60°) </h3>
+                </span>
                 <span class="popular-goods__image">
                     <img src="" alt="">
                 </span>
@@ -178,7 +191,6 @@
             </div>
         </section>
     </main>
-
     <footer class="footer">
         <div class="footer__top">
             <div class="footer__headline headline">
