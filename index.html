@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>РВД-Сервис</title>
+    <link href="template/app/css/style.css" rel="stylesheet">
 </head>
 <body class="body">
     <header class="header">
@@ -30,28 +31,48 @@
         <div class="header__bottom">
             <nav class="header__navigation navigation">
                 <ul class="navigation__list">
-                    <li class="navigation__item select">
-                        <select class="select__list" size="1">
-                            <option class="select__item" selected disabled>Каталог товаров</option>
-                            <option class="select__item">Адаптеры 201,202 (BSP 60°)</option>
-                            <option class="select__item">Героторные гидромоторы BMR </option>
-                            <option class="select__item">Адаптеры 201,202 (BSP 60°)</option>
-                            <option class="select__item">Адаптеры 201,202 (BSP 60°)</option>
-                        </select>
+                    <li class="navigation__item">
+                        <a href="#" class="navigation__link">Каталог товаров</a>
+                        <ul class="navigation__sublist">
+                            <li class="navigation__subitem">
+                                  <a href="#" class="navigation__sublink">Адаптеры 201,202 (BSP 60°)</a>
+                            </li>
+                            <li class="navigation__subitem">
+                                  <a href="#" class="navigation__sublink">Героторные гидромоторы BMR</a>
+                            </li>
+                            <li class="navigation__subitem">
+                                  <a href="#" class="navigation__sublink">Адаптеры 201,202 (BSP 60°)</a> 
+                            </li> 
+                            <li class="navigation__subitem">
+                                  <a href="#" class="navigation__sublink">Адаптеры 201,202 (BSP 60°)</a>
+                            </li>
+                         </ul>                                         
                     </li>
                     <li class="navigation__item">
                         <a href="#" class="navigation__link">О компании</a>
                     </li>
-                    <li class="navigation__item select">
-                            <select class="select__list" size="1">
-                                <option class="select__item" selected disabled>РВД-Сервис (УСЛУГИ)</option>
-                                <option class="select__item">РВД для легковых автомобилей </option>
-                                <option class="select__item">РВД для грузовых автомобилей</option>
-                                <option class="select__item">РВД для моек высокого давления</option>
-                                <option class="select__item">РВД для коммунальной техники</option>
-                                <option class="select__item">РВД для станков и оборудования</option>
-                                <option class="select__item">РВД для каналопромывочных машин</option>    
-                            </select>
+                    <li class="navigation__item">
+                         <a href="#" class="navigation__link">РВД-Сервис (УСЛУГИ)</a>
+                         <ul class="navigation__sublist">
+                            <li class="navigation__subitem">
+                                  <a href="#" class="navigation__sublink">РВД для легковых автомобилей</a>
+                            </li>
+                            <li class="navigation__subitem">
+                                  <a href="#" class="navigation__sublink">РВД для грузовых автомобилей</a>
+                            </li>     
+                            <li class="navigation__subitem">
+                                  <a href="#" class="navigation__sublink">РВД для моек высокого давления</a>
+                            </li>       
+                            <li class="navigation__subitem">
+                                  <a href="#" class="navigation__sublink">РВД для коммунальной техники</a>
+                            </li>
+                            <li class="navigation__subitem">
+                                  <a href="#" class="navigation__sublink">РВД для станков и оборудования</a> 
+                            </li> 
+                            <li class="navigation__subitem">
+                                  <a href="#" class="navigation__sublink">РВД для каналопромывочных машин</a> 
+                            </li>
+                        </ul>    
                         </li>
                     <li class="navigation__item">
                         <a href="#" class="navigation__link">Информация</a>
@@ -116,66 +137,68 @@
             <header class="popular-goods__title custom-title">
                 <h2>Популярные товары</h2>
             </header>
-            <div class="popular-goods__item">
-                <h3 class="popular-goods__title goods-title">Адаптеры 201,202 (BSP 60°) </h3> 
-                <span class="popular-goods__image">
-                    <img src="" alt="">
-                </span>
-                <div class="popular-goods__description description">
-                    <p class="description__charact">Соединение: внешняя резьба BSPP.</p>
-                    <p class="description__charact">Тип: прямой.</p>
-                    <p class="description__charact">Уплотнение соединения: по конусу 60°.</p>
-                    <p class="description__charact">Соответствие нормам: ISO 8434-6.</p>
-                    <p class="description__charact">Материал: сталь.</p> 
+            <div class="popular-goods__items">
+                <div class="popular-goods__item">
+                    <h3 class="popular-goods__title goods-title">Адаптеры 201,202 (BSP 60°) </h3> 
+                    <span class="popular-goods__image">
+                        <img src="" alt="">
+                    </span>
+                    <div class="popular-goods__description description">
+                        <p class="description__charact">Соединение: внешняя резьба BSPP.</p>
+                        <p class="description__charact">Тип: прямой.</p>
+                        <p class="description__charact">Уплотнение соединения: по конусу 60°.</p>
+                        <p class="description__charact">Соответствие нормам: ISO 8434-6.</p>
+                        <p class="description__charact">Материал: сталь.</p> 
+                    </div>
+                    <a href="#" class="popular-goods__details">
+                        <span class="description__charact"> Подробнее </span>
+                    </a>
                 </div>
-                <a href="#" class="popular-goods__details">
-                    <span class="description__charact"> Подробнее </span>
-                </a>
-            </div>
-            <div class="popular-goods__item">         
-                <h3 class="popular-goods__title goods-title">Героторные гидромоторы BMR </h3>             
-                <span class="popular-goods__image">
-                    <img src="" alt="">
-                </span>
-                <div class="popular-goods__description description">
-                <p class="description__charact">Диапозон рабочих температур: от -30°С до +90°С.</p>
-                <p class="description__charact">Вязкость масла: 20-75 сСТ.</p>
-                <p class="description__charact">Масло в соответствии с: ISO 20/16.</p>
-                <p class="description__charact">Пиковая нагрузка допускается не более 0,6 сек. от каждой минуты.</p>
+                <div class="popular-goods__item">         
+                    <h3 class="popular-goods__title goods-title">Героторные гидромоторы BMR </h3>             
+                    <span class="popular-goods__image">
+                        <img src="" alt="">
+                    </span>
+                    <div class="popular-goods__description description">
+                        <p class="description__charact">Диапозон рабочих температур: от -30°С до +90°С.</p>
+                        <p class="description__charact">Вязкость масла: 20-75 сСТ.</p>
+                        <p class="description__charact">Масло в соответствии с: ISO 20/16.</p>
+                        <p class="description__charact">Пиковая нагрузка допускается не более 0,6 сек. от каждой минуты.</p>
+                    </div>
+                    <a href="#" class="popular-goods__details">
+                        <span class="description__charact"> Подробнее </span>
+                    </a>
                 </div>
-                <a href="#" class="popular-goods__details">
-                    <span class="description__charact"> Подробнее </span>
-                </a>
-            </div>
-            <div class="popular-goods__item">          
-                <h3 class="popular-goods__title goods-title">Адаптеры 201,202 (BSP 60°) </h3>              
-                <span class="popular-goods__image">
-                    <img src="" alt="">
-                </span>
-                <div class="popular-goods__description description">
-                    <p class="description__charact">Материал: корпус-сталь уплотнение - NBR</p>
-                    <p class="description__charact">Диапозон рабочих температур: от -20°С до 80°С (NBR) от -15°С до +110°С (VITON)</p>
-                    <p class="description__charact">Резьба: BSPP</p> 
+                <div class="popular-goods__item">          
+                    <h3 class="popular-goods__title goods-title">Адаптеры 201,202 (BSP 60°) </h3>              
+                    <span class="popular-goods__image">
+                        <img src="" alt="">
+                    </span>
+                    <div class="popular-goods__description description">
+                        <p class="description__charact">Материал: корпус-сталь уплотнение - NBR</p>
+                        <p class="description__charact">Диапозон рабочих температур: от -20°С до 80°С (NBR) от -15°С до +110°С (VITON)</p>
+                        <p class="description__charact">Резьба: BSPP</p> 
+                    </div>
+                    <a href="#" class="popular-goods__details">
+                        <span class="description__charact"> Подробнее </span>
+                    </a>
                 </div>
-                <a href="#" class="popular-goods__details">
-                    <span class="description__charact"> Подробнее </span>
-                </a>
-            </div>
-            <div class="popular-goods__item">              
-                <h3 class="popular-goods__title goods-title">Адаптеры 201,202 (BSP 60°) </h3>          
-                <span class="popular-goods__image">
-                    <img src="" alt="">
-                </span>
-                <div class="popular-goods__description description">
-                    <p class="description__charact">Соединение: внешняя резьба BSPP.</p> 
-                    <p class="description__charact">Тип: прямой. Уплотнение соединения: по конусу 60°.</p>
-                    <p class="description__charact">Соответствие нормам: ISO 8434-6.</p>
-                    <p class="description__charact">Материал: сталь.</p> 
+                <div class="popular-goods__item">              
+                    <h3 class="popular-goods__title goods-title">Адаптеры 201,202 (BSP 60°) </h3>          
+                    <span class="popular-goods__image">
+                        <img src="" alt="">
+                    </span>
+                    <div class="popular-goods__description description">
+                        <p class="description__charact">Соединение: внешняя резьба BSPP.</p> 
+                        <p class="description__charact">Тип: прямой. Уплотнение соединения: по конусу 60°.</p>
+                        <p class="description__charact">Соответствие нормам: ISO 8434-6.</p>
+                        <p class="description__charact">Материал: сталь.</p> 
+                    </div>
+                        <a href="#" class="popular-goods__details">
+                        <span class="description__charact"> Подробнее </span>
+                    </a>
                 </div>
-               <a href="#" class="popular-goods__details">
-                    <span class="description__charact"> Подробнее </span>
-                </a>
-            </div>
+           </div>
         </section>
     </main>
     <footer class="footer">
