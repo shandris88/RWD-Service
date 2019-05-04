@@ -530,6 +530,7 @@ height: 100%;
 .footer {
 	display: flex;
 	flex-direction: column;
+	margin-right: 42px;
 }
 .footer::before {
 	content: '';
@@ -561,7 +562,7 @@ height: 100%;
 	list-style-type: none;	
 }
 .footer__item {
-	min-width: 200px;
+	min-width: 180px;
 }
 .footer__item:nth-child(3) {
 	margin-left: 40px;
