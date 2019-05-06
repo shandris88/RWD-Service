@@ -1,6 +1,6 @@
 @charset "UTF-8";
 @font-face {
-    font-family: "Geometria-bold";
+    font-family: "Geometria";
     src: url(../fonts/Geometria-Bold.woff) format('woff');
     src: url(../fonts/Geometria-Bold.woff2) format('woff2');
     font-weight: 700;
@@ -14,14 +14,14 @@
     font-style: normal;
 }
 @font-face {
-    font-family: "MullerBold";
+    font-family: "Muller";
     src: url(../fonts/Fontfabric-MullerBold.woff) format('woff');
     src: url(../fonts/Fontfabric-MullerBold.woff2) format('woff2');
     font-weight: 700;
     font-style: normal;
 }
 @font-face {
-    font-family: "MullerRegular";
+    font-family: "Muller";
     src: url(../fonts/Fontfabric-MullerRegular.woff) format('woff');
     src: url(../fonts/Fontfabric-MullerRegular.woff2) format('woff2');
     font-weight: 400;
@@ -62,15 +62,16 @@ height: 100%;
     flex-shrink: 0;   
 }
 .container {
-	max-width: 1920px;
+	max-width: 1646px;
 	width: 100%;
 	margin: 0 auto;	
 }
-.header__wrap {
-	max-width: 1646px;
+.container_big {
+	max-width: 1920px;
 	width: 100%;
-	margin: 20px auto 5px;
+	margin: 0 auto;
 }
+
 .header__top {
 	display: flex;
 	align-items: flex-start;
@@ -85,7 +86,6 @@ height: 100%;
 	margin: 0px auto 40px;
 }
 .headline {
-	font-family: "Geometria-bold";
 	font-size: 36px;
 	font-weight: 700;
 	line-height: 22px;
@@ -93,8 +93,8 @@ height: 100%;
 }
 .text {
 	font-family: "Geometria";
-	font-size: 14px;
 	font-weight: 400;
+	font-size: 14px;
 	line-height: 22px;
 	color: #8d8d8d;
 }
@@ -143,6 +143,10 @@ height: 100%;
 	transition: 0.6s;
 }
 .search__text{
+	font-family: "Geometria";
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 22px;
 	border: none;
 	border-bottom: 1px solid #d1d1d1
 }
@@ -162,8 +166,11 @@ height: 100%;
 	color: #cf4040;
 }
 .header__bell {
-	display: inline-flex;
+	font-family: "Geometria";
 	font-size: 16px;
+	line-height: 22px;
+	color: #8d8d8d;
+	display: inline-flex;
 	text-decoration: underline;	
 	flex-grow: 0.9;
 	align-items: center;
@@ -229,10 +236,8 @@ height: 100%;
 	top: 30%;
 }
 .navigation-text {
-	font-family: "Geometria";
 	color: #13151b;
 	font-weight: 700;
-	font-size: 18px;
 	line-height: 22px;
 	text-decoration: none;
 	display: block;
@@ -374,7 +379,8 @@ height: 100%;
 	right: 0;
 }
 .index-banner__description {
-	font-family: "MullerBold";
+	font-family: "Muller";
+	font-weight: 700;
 	font-size: 60px;
 	line-height: 72px;
 	color: #ffffff;
@@ -390,12 +396,12 @@ height: 100%;
 }
 
 .custom-title{
-	font-family: "MullerBold";
+	font-family: "Muller";
+	font-weight: 700;
 	font-size: 23px;
 	line-height: 72px;
 	text-transform: uppercase;
 	color: #bf0000;
-	padding: 15px 0px 30px 138px;
 }
 
 .services__wrapper {
@@ -428,7 +434,8 @@ height: 100%;
 	padding-top: 20px;
 }
 .services__name {
-	font-family: "MullerBold";
+	font-family: "Muller";
+	font-weight: 700;
 	font-size: 24px;
 	line-height: 22px;
 	color: #000000;
@@ -436,13 +443,10 @@ height: 100%;
 	padding-bottom: 10px;
 }
 .services__information {
-	font-family: "MullerRegular";
-	font-size: 18px;
-	font-weight: 700;
+	font-family: "Muller";
 	line-height: 48px;
 	color: #000000;
 	display: block;
-	margin: 48px 335px 0 141px;
 }
 .popular-goods {
 	display: flex;
@@ -451,9 +455,7 @@ height: 100%;
 }
 .popular-goods__items {
 	display: flex;
-	justify-content: space-between;
-	margin-left: 138px;
-	margin-right: 138px;	
+	justify-content: space-between;	
 }
 .popular-goods__item {
 	max-width: 389px;
@@ -464,9 +466,9 @@ height: 100%;
 	border: 3px solid #8d8d8d;
 }
 .popular-goods__item-title{
-	font-family: "MullerBold";
+	font-family: "Muller";
 	font-size: 24px;
-	font-weight: 400;
+	font-weight: 700;
 	line-height: 22px;
 }
 .popular-goods__item-image {
@@ -481,9 +483,7 @@ height: 100%;
 	margin-bottom: 15px;
 }
 .item__description {
-	font-family: "Geometria";
 	font-size: 16px;
-	font-weight: bold;
 	line-height: 22px;
 	color: #404146;
 	padding-bottom: 25px;
@@ -492,9 +492,7 @@ height: 100%;
 	height: 58px;
 	width: 255px;
 	color: #ffffff;
-	font-family: "Geometria";
 	font-size: 16px;
-	font-weight: 400;
 	line-height: 22px;
 	align-self: center;
 	display: inline-flex;
@@ -530,7 +528,6 @@ height: 100%;
 .footer {
 	display: flex;
 	flex-direction: column;
-	margin-right: 42px;
 }
 .footer::before {
 	content: '';
@@ -592,9 +589,7 @@ height: 100%;
 	margin-top: 31px;
 }
 .footer__copy {
-	font-family: "Geometria";
 	font-size: 12px;
-	font-weight: 700;
 	line-height: 18px;
 	display: flex;
 	justify-content: space-between;
