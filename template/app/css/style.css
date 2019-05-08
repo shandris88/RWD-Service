@@ -1,31 +1,31 @@
 @charset "UTF-8";
 @font-face {
-    font-family: "Geometria";
-    src: url(../fonts/Geometria-Bold.woff) format('woff');
-    src: url(../fonts/Geometria-Bold.woff2) format('woff2');
-    font-weight: 700;
-    font-style: normal;
+	font-family: "Geometria";
+	src: url(../fonts/Geometria-Bold.woff) format('woff');
+	src: url(../fonts/Geometria-Bold.woff2) format('woff2');
+	font-weight: 700;
+	font-style: normal;
 }
 @font-face {
-    font-family: "Geometria";
-    src: url(../fonts/Geometria.woff) format('woff');
-    src: url(../fonts/Geometria.woff2) format('woff2');
-    font-weight: 400;
-    font-style: normal;
+	font-family: "Geometria";
+	src: url(../fonts/Geometria.woff) format('woff');
+	src: url(../fonts/Geometria.woff2) format('woff2');
+	font-weight: 400;
+	font-style: normal;
 }
 @font-face {
-    font-family: "Muller";
-    src: url(../fonts/Fontfabric-MullerBold.woff) format('woff');
-    src: url(../fonts/Fontfabric-MullerBold.woff2) format('woff2');
-    font-weight: 700;
-    font-style: normal;
+	font-family: "Muller";
+	src: url(../fonts/Fontfabric-MullerBold.woff) format('woff');
+	src: url(../fonts/Fontfabric-MullerBold.woff2) format('woff2');
+	font-weight: 700;
+	font-style: normal;
 }
 @font-face {
-    font-family: "Muller";
-    src: url(../fonts/Fontfabric-MullerRegular.woff) format('woff');
-    src: url(../fonts/Fontfabric-MullerRegular.woff2) format('woff2');
-    font-weight: 400;
-    font-style: normal;
+	font-family: "Muller";
+	src: url(../fonts/Fontfabric-MullerRegular.woff) format('woff');
+	src: url(../fonts/Fontfabric-MullerRegular.woff2) format('woff2');
+	font-weight: 400;
+	font-style: normal;
 }
 button {
 	border: none;
@@ -45,7 +45,7 @@ img {
 }
 html,
 body {
-height: 100%;
+	height: 100%;
 }
 .body {
 	min-width: 320px;
@@ -59,7 +59,7 @@ height: 100%;
 .header,
 .main,
 .footer {
-		flex-shrink: 0;  
+	flex-shrink: 0;  
 }
 .container {
 	max-width: 1646px;
