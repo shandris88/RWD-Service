@@ -102,7 +102,7 @@ body {
 	display: flex;
 	flex-grow: 0.8;
 	padding: 0px 28px 0 20px;
-  margin: 0px -46px 0 -7px;
+    margin: 0px -46px 0 -7px;
 }
 .header__auth a {
 	text-decoration: none;
@@ -222,10 +222,10 @@ body {
 	content: '';
 	position: absolute;
 	width: 7px;
-  height: 7px;
-  border-width: 2px;
-  border-style: solid;
-  border-color: transparent transparent black black;
+	height: 7px;
+	border-width: 2px;
+	border-style: solid;
+	border-color: transparent transparent black black;
 	transform: rotate(-45deg);
 	left: 90%;
 	top: 30%;
@@ -296,10 +296,10 @@ body {
 	content: '';
 	position: absolute;
 	width: 7px;
-  height: 7px;
-  border-width: 2px;
-  border-style: solid;
-  border-color: transparent transparent black black;
+	height: 7px;
+	border-width: 2px;
+	border-style: solid;
+	border-color: transparent transparent black black;
 	transform: rotate(-135deg);
 	right: 17%;
 	top: 50%;
@@ -332,7 +332,7 @@ body {
 	position: absolute;
 	display: none;
 	top: 65px;
-  right: -115%;
+    right: -115%;
 	z-index: 2;	
 }
 .sublist__subitem{
@@ -355,16 +355,16 @@ body {
 .sublist__sublink:hover {
 	color: #ffffff;
 }
-.index-banner {
-  min-height: 802px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  background-repeat: no-repeat;
+.index-banner__wrap {
+	min-height: 802px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-repeat: no-repeat;
 	background-size: cover;
 	margin-bottom: 15px;
 }
-.index-banner::before {
+.index-banner__wrap::before {
 	content: '';
 	background-color: rgba(0, 0, 0, 0.44);
 	position: absolute;
@@ -381,9 +381,8 @@ body {
 	letter-spacing: 2px;
 	color: #ffffff;
 	text-transform: uppercase;
-	padding-left: 113px;
-	padding-right: 866px;
-	padding-bottom: 75px;
+	padding-right: 734px;
+    padding-bottom: 75px;
 }
 .services {
 	display: flex;
@@ -511,35 +510,35 @@ body {
 	text-decoration: none;
 	background-color: #bf0000;
 	padding-right: 60px;
-  margin-top: -4px;
+    margin-top: -4px;
 }
 .popular-goods__link::before {
 	content: '';
 	position: absolute;
 	width: 23px;
-  height: 2px;
-  background: #ffffff;
-  top: 50%;
-  left: 190px;
-  transform: translate(-50%, -50%);
+	height: 2px;
+	background: #ffffff;
+	top: 50%;
+	left: 190px;
+	transform: translate(-50%, -50%);
 }
 .popular-goods__link::after {
 	content: '';
 	position: absolute;
 	width: 7px;
-  height: 7px;
-  border-width: 2px;
-  border-style: solid;
-  border-color: transparent transparent #ffffff #ffffff;
+	height: 7px;
+	border-width: 2px;
+	border-style: solid;
+	border-color: transparent transparent #ffffff #ffffff;
 	top: 44%;
-  left: 195px;
-  transform: rotate(-135deg);
+	left: 195px;
+	transform: rotate(-135deg);
 }
 .footer {
 	display: flex;
 	flex-direction: column;
 }
-.footer::before {
+.footer__wrap::before {
 	content: '';
 	height: 43%;
 	width: 100%;
@@ -616,6 +615,7 @@ body {
 .up-button {
 	position: fixed;
 	right: 1%;
-  top: 85%;
+    top: 85%;
 }
+
 
